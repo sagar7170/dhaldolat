@@ -46,9 +46,9 @@ function Properties() {
       <Carousel responsive={responsive}>
         {
           array?.map((e,i) => (
-            <div key={i} className=''>
-              <Property />
-            </div>
+            <Link href='/properties'>
+              <Property key={i} />
+            </Link>
           ))
         }
       </Carousel>;

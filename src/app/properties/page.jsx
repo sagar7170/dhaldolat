@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import Property from '../components/Property'
 import ArrowLeftOutlinedIcon from '@mui/icons-material/ArrowLeftOutlined';
 import Filters from '../components/Filters';
+import Link from 'next/link';
 function Properties() {
     const [showfilter,setShowfilter] = useState(false);
      const array = new Array(9).fill(9);
@@ -21,7 +22,9 @@ function Properties() {
         <div className='flex flex-wrap'>
         {
             array?.map((e,i)=>(
-               <Property key={i}/>
+                
+                <Property key={i}/>
+                
             ))
         }
     </div>
