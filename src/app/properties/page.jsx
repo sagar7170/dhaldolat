@@ -20,8 +20,8 @@ function Properties() {
        </div>
         <div className='flex flex-wrap'>
         {
-            array?.map((e)=>(
-               <Property/>
+            array?.map((e,i)=>(
+               <Property key={i}/>
             ))
         }
     </div>
