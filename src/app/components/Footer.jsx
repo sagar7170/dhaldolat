@@ -21,10 +21,10 @@ function Footer() {
                     </div>
                     <div>
                         <ul className=' uppercase p-5 cursor-pointer sm:space-y-10 '>
-                            <li className='hover:text-yellow-500'>Home</li>
-                            <li className='hover:text-yellow-500'>About Us</li>
-                            <li className='hover:text-yellow-500'>Properties</li>
-                            <li className='hover:text-yellow-500'>Contact us</li>
+                            <a href="#home"><li className='hover:text-yellow-500'>Home</li></a>
+                            <a href="#about"><li className='hover:text-yellow-500'>About Us</li></a>
+                            <a href="#property"><li className='hover:text-yellow-500'>Properties</li></a>
+                            <a href="#contact"><li className='hover:text-yellow-500'>Contact us</li></a>
                         </ul>
                     </div>
                     <div className='sm:flex flex-col hidden uppercase space-y-4'>
@@ -42,11 +42,11 @@ function Footer() {
                         <span>whatsapp</span>
                     </div>
                 </div>
-              <hr />
-              <div className='uppercase text-lg font-thin text-center sm:p-10 p-5'>
-                <span className='block'>&copy; all rights reserved | Powered by <span className='text-yellow-300'>property vista</span></span>
-                <span>disclaimer</span>
-              </div>
+                <hr />
+                <div className='uppercase text-lg font-thin text-center sm:p-10 p-5'>
+                    <span className='block'>&copy; all rights reserved | Powered by <span className='text-yellow-300'>property vista</span></span>
+                    <span>disclaimer</span>
+                </div>
             </div>
         </footer>
     )

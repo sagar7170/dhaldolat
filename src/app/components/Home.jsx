@@ -6,7 +6,7 @@ import HandshakeOutlinedIcon from '@mui/icons-material/HandshakeOutlined';
 
 function Home() {
   return (
-    <div className='bg-[#093779] h-screen  lg:flex  sm:space-x-10 justify-center items-center p-5'>
+    <div id='home' className='bg-[#093779] h-screen  lg:flex  sm:space-x-10 justify-center items-center p-5'>
         <div className='flex flex-col sm:space-y-16 space-y-8 w-full justify-center'>
             <div className='backdrop-blur-sm bg-white/10 p-10 sm:p-16 space-y-5 text-center rounded-2xl'>
                 <h1 className='uppercase sm:text-7xl text-5xl font-semibold '>Discover</h1>
